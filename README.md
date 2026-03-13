@@ -352,5 +352,6 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 - Our instructors and peers for guidance and feedback.
 
 ---
+CONTRIBUTORS 
 
 **Note**: Cyber Drive was developed as a school project to demonstrate full‑stack development skills. It is not intended for production use without a thorough security review and load testing.
