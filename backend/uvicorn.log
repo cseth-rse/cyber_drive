@@ -1,0 +1,280 @@
+INFO:     Will watch for changes in these directories: ['/home/soem/Documents/projects/cyber-drive-backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [64535] using WatchFiles
+09:35:15  WARNING   app.security  Rate limiter: Redis not reachable (Error 111 connecting to localhost:6379. Connection refused.) — falling back to in-memory. This does NOT work correctly in multi-instance deployments.
+09:35:15  INFO      app.monitoring.metrics  Prometheus metrics enabled at /metrics
+INFO:     Started server process [64538]
+INFO:     Waiting for application startup.
+09:35:15  DEBUG     botocore.hooks  Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+09:35:15  DEBUG     botocore.hooks  Changing event name from before-call.apigateway to before-call.api-gateway
+09:35:15  DEBUG     botocore.hooks  Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+09:35:15  DEBUG     botocore.hooks  Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+09:35:15  DEBUG     botocore.hooks  Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+09:35:15  DEBUG     botocore.hooks  Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+09:35:15  DEBUG     botocore.hooks  Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+09:35:15  DEBUG     botocore.hooks  Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+09:35:15  DEBUG     botocore.hooks  Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+09:35:15  DEBUG     botocore.hooks  Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+09:35:15  DEBUG     botocore.hooks  Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+09:35:15  DEBUG     botocore.loaders  Loading JSON file: /home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/botocore/data/endpoints.json
+09:35:15  DEBUG     botocore.loaders  Loading JSON file: /home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/botocore/data/sdk-default-configuration.json
+09:35:15  DEBUG     botocore.hooks  Event choose-service-name: calling handler <function handle_service_name_alias at 0x749c009718a0>
+09:35:15  DEBUG     botocore.loaders  Loading JSON file: /home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/botocore/data/s3/2006-03-01/service-2.json.gz
+09:35:15  DEBUG     botocore.loaders  Loading JSON file: /home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/botocore/data/s3/2006-03-01/endpoint-rule-set-1.json.gz
+09:35:15  DEBUG     botocore.loaders  Loading JSON file: /home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/botocore/data/partitions.json
+09:35:15  DEBUG     botocore.hooks  Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x749c00ad1620>
+09:35:15  DEBUG     botocore.hooks  Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x749c00f851c0>
+09:35:15  DEBUG     botocore.hooks  Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x749c00ad13a0>
+09:35:15  DEBUG     botocore.endpoint  Setting s3 timeout as (60, 60)
+09:35:15  DEBUG     botocore.loaders  Loading JSON file: /home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/botocore/data/_retry.json
+09:35:15  DEBUG     botocore.client  Registering retry handlers for service: s3
+09:35:15  DEBUG     botocore.utils  Registering S3 region redirector handler
+09:35:15  DEBUG     botocore.utils  Registering S3Express Identity Resolver
+09:35:15  INFO      app.storage.s3  S3 client initialised (endpoint=http://localhost:9000, bucket=cyber-drive)
+09:35:15  DEBUG     botocore.hooks  Event before-parameter-build.s3.HeadBucket: calling handler <function validate_bucket_name at 0x749c00973740>
+09:35:15  DEBUG     botocore.hooks  Event before-parameter-build.s3.HeadBucket: calling handler <function remove_bucket_from_url_paths_from_model at 0x749c00999940>
+09:35:15  DEBUG     botocore.hooks  Event before-parameter-build.s3.HeadBucket: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x749c004d5790>>
+09:35:15  DEBUG     botocore.hooks  Event before-parameter-build.s3.HeadBucket: calling handler <bound method ClientCreator._inject_s3_input_parameters of <botocore.client.ClientCreator object at 0x749c00f8cb00>>
+09:35:15  DEBUG     botocore.hooks  Event before-parameter-build.s3.HeadBucket: calling handler <function generate_idempotent_uuid at 0x749c00973560>
+09:35:15  DEBUG     botocore.hooks  Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x749c00999b20>
+09:35:15  DEBUG     botocore.hooks  Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x749c004d5790>>
+09:35:15  DEBUG     botocore.regions  Calling endpoint provider with parameters: {'Bucket': 'cyber-drive', 'Region': 'us-east-1', 'UseFIPS': False, 'UseDualStack': False, 'Endpoint': 'http://localhost:9000', 'ForcePathStyle': True, 'Accelerate': False, 'UseGlobalEndpoint': True, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+09:35:15  DEBUG     botocore.regions  Endpoint provider result: http://localhost:9000/cyber-drive
+09:35:15  DEBUG     botocore.regions  Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "s3v4"
+09:35:15  DEBUG     botocore.regions  Selected auth type "v4" as "s3v4" with signing context params: {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+09:35:15  DEBUG     botocore.hooks  Event before-call.s3.HeadBucket: calling handler <function add_expect_header at 0x749c00973b00>
+09:35:15  DEBUG     botocore.hooks  Event before-call.s3.HeadBucket: calling handler <bound method S3ExpressIdentityResolver.apply_signing_cache_key of <botocore.utils.S3ExpressIdentityResolver object at 0x749c02380bf0>>
+09:35:15  DEBUG     botocore.hooks  Event before-call.s3.HeadBucket: calling handler <function add_recursion_detection_header at 0x749c00972fc0>
+09:35:15  DEBUG     botocore.hooks  Event before-call.s3.HeadBucket: calling handler <function inject_api_version_header_if_needed at 0x749c00999080>
+09:35:15  DEBUG     botocore.endpoint  Making request for OperationModel(name=HeadBucket) with params: {'url_path': '', 'query_string': {}, 'method': 'HEAD', 'headers': {'User-Agent': 'Boto3/1.34.131 md/Botocore#1.34.162 ua/2.0 os/linux#6.8.0-87-generic md/arch#x86_64 lang/python#3.12.3 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.162'}, 'body': b'', 'auth_path': '/cyber-drive/', 'url': 'http://localhost:9000/cyber-drive', 'context': {'client_region': 'us-east-1', 'client_config': <botocore.config.Config object at 0x749c00f8ede0>, 'has_streaming_input': False, 'auth_type': 's3v4', 's3_redirect': {'redirected': False, 'bucket': 'cyber-drive', 'params': {'Bucket': 'cyber-drive'}}, 'input_params': {'Bucket': 'cyber-drive'}, 'signing': {'region': 'us-east-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 'endpoint_properties': {'authSchemes': [{'disableDoubleEncoding': True, 'name': 'sigv4', 'signingName': 's3', 'signingRegion': 'us-east-1'}]}}}
+09:35:15  DEBUG     botocore.hooks  Event request-created.s3.HeadBucket: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x749c02798da0>>
+09:35:15  DEBUG     botocore.hooks  Event choose-signer.s3.HeadBucket: calling handler <function set_operation_specific_signer at 0x749c00973420>
+09:35:15  DEBUG     botocore.hooks  Event before-sign.s3.HeadBucket: calling handler <function remove_arn_from_signing_path at 0x749c00999a80>
+09:35:15  DEBUG     botocore.hooks  Event before-sign.s3.HeadBucket: calling handler <bound method S3ExpressIdentityResolver.resolve_s3express_identity of <botocore.utils.S3ExpressIdentityResolver object at 0x749c02380bf0>>
+09:35:15  DEBUG     botocore.auth  Calculating signature using v4 auth.
+09:35:15  DEBUG     botocore.auth  CanonicalRequest:
+HEAD
+/cyber-drive
+
+host:localhost:9000
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20260313T083515Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+09:35:15  DEBUG     botocore.auth  StringToSign:
+AWS4-HMAC-SHA256
+20260313T083515Z
+20260313/us-east-1/s3/aws4_request
+73786bf65652f50c1ddbb0252aaaf2c8e87364f662c22aaa0afc0eed9f1bb5c4
+09:35:15  DEBUG     botocore.auth  Signature:
+cd54dc99905d0235c5616644d0d0c2a8f126f60ee8c890ee6797707aa6fe4d47
+09:35:15  DEBUG     botocore.hooks  Event request-created.s3.HeadBucket: calling handler <function add_retry_headers at 0x749c009998a0>
+09:35:15  DEBUG     botocore.endpoint  Sending http request: <AWSPreparedRequest stream_output=False, method=HEAD, url=http://localhost:9000/cyber-drive, headers={'User-Agent': b'Boto3/1.34.131 md/Botocore#1.34.162 ua/2.0 os/linux#6.8.0-87-generic md/arch#x86_64 lang/python#3.12.3 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.162', 'X-Amz-Date': b'20260313T083515Z', 'X-Amz-Content-SHA256': b'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'Authorization': b'AWS4-HMAC-SHA256 Credential=minioadmin/20260313/us-east-1/s3/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=cd54dc99905d0235c5616644d0d0c2a8f126f60ee8c890ee6797707aa6fe4d47', 'amz-sdk-invocation-id': b'9fc82ea9-78e8-4fb9-87da-f1075fb53633', 'amz-sdk-request': b'attempt=1'}>
+09:35:15  DEBUG     urllib3.connectionpool  Starting new HTTP connection (1): localhost:9000
+09:35:15  DEBUG     urllib3.connectionpool  http://localhost:9000 "HEAD /cyber-drive HTTP/1.1" 200 0
+09:35:15  DEBUG     botocore.parsers  Response headers: {'Accept-Ranges': 'bytes', 'Content-Length': '0', 'Content-Type': 'application/xml', 'Server': 'MinIO', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'Origin, Accept-Encoding', 'X-Amz-Id-2': 'dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8', 'X-Amz-Request-Id': '189C59A468621D24', 'X-Content-Type-Options': 'nosniff', 'X-Ratelimit-Limit': '1256', 'X-Ratelimit-Remaining': '1256', 'X-Xss-Protection': '1; mode=block', 'Date': 'Fri, 13 Mar 2026 08:35:15 GMT'}
+09:35:15  DEBUG     botocore.parsers  Response body:
+b''
+09:35:15  DEBUG     botocore.hooks  Event needs-retry.s3.HeadBucket: calling handler <botocore.retryhandler.RetryHandler object at 0x749c00f68050>
+09:35:15  DEBUG     botocore.retryhandler  No retry needed.
+09:35:15  DEBUG     botocore.hooks  Event needs-retry.s3.HeadBucket: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x749c004d5790>>
+09:35:15  INFO      app.storage.s3  S3 bucket 'cyber-drive' already exists
+INFO:     Application startup complete.
+09:35:42  ERROR     app.email.service  Failed to send OTP email to test@example.com: (535, b'Authentication failed')
+ERROR:    Exception in ASGI application
+  + Exception Group Traceback (most recent call last):
+  |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/_utils.py", line 87, in collapse_excgroups
+  |     yield
+  |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 190, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 783, in __aexit__
+  |     raise BaseExceptionGroup(
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 399, in run_asgi
+    |     result = await app(  # type: ignore[func-returns-value]
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 70, in __call__
+    |     return await self.app(scope, receive, send)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 123, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    |     raise exc
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    |     self.gen.throw(value)
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/app/monitoring/metrics.py", line 51, in _prometheus_middleware
+    |     response = await call_next(request)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 165, in call_next
+    |     raise app_exc
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 151, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    |     await self.app(scope, receive, send)
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 189, in __call__
+    |     with collapse_excgroups():
+    |   File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    |     self.gen.throw(value)
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/_utils.py", line 93, in collapse_excgroups
+    |     raise exc
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 191, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/app/security.py", line 46, in add_security_headers
+    |     response: Response = await call_next(request)
+    |                          ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 165, in call_next
+    |     raise app_exc
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 151, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    |     raise exc
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 756, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 776, in app
+    |     await route.handle(scope, receive, send)
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 297, in handle
+    |     await self.app(scope, receive, send)
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 77, in app
+    |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    |     raise exc
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 72, in app
+    |     response = await func(request)
+    |                ^^^^^^^^^^^^^^^^^^^
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 278, in app
+    |     raw_response = await run_endpoint_function(
+    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    |     return await dependant.call(**values)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/app/auth/router.py", line 31, in register
+    |     return await svc.register(body.email)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/app/auth/service.py", line 60, in register
+    |     await self.email_svc.send_otp(email, otp)
+    |   File "/home/soem/Documents/projects/cyber-drive-backend/app/email/service.py", line 54, in send_otp
+    |     server.login(s.email_user, s.email_pass)
+    |   File "/usr/lib/python3.12/smtplib.py", line 750, in login
+    |     raise last_exception
+    |   File "/usr/lib/python3.12/smtplib.py", line 739, in login
+    |     (code, resp) = self.auth(
+    |                    ^^^^^^^^^^
+    |   File "/usr/lib/python3.12/smtplib.py", line 662, in auth
+    |     raise SMTPAuthenticationError(code, resp)
+    | smtplib.SMTPAuthenticationError: (535, b'Authentication failed')
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 399, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 70, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/soem/Documents/projects/cyber-drive-backend/app/monitoring/metrics.py", line 51, in _prometheus_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/soem/Documents/projects/cyber-drive-backend/app/security.py", line 46, in add_security_headers
+    response: Response = await call_next(request)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/soem/Documents/projects/cyber-drive-backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/soem/Documents/projects/cyber-drive-backend/app/auth/router.py", line 31, in register
+    return await svc.register(body.email)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/soem/Documents/projects/cyber-drive-backend/app/auth/service.py", line 60, in register
+    await self.email_svc.send_otp(email, otp)
+  File "/home/soem/Documents/projects/cyber-drive-backend/app/email/service.py", line 54, in send_otp
+    server.login(s.email_user, s.email_pass)
+  File "/usr/lib/python3.12/smtplib.py", line 750, in login
+    raise last_exception
+  File "/usr/lib/python3.12/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "/usr/lib/python3.12/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Authentication failed')
