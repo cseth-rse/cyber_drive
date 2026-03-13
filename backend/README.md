@@ -95,8 +95,6 @@ The backend follows a modular monolith architecture, where features are organize
 | **Load Balancing**   | HAProxy / Nginx                | Proven, high-performance, free software for traffic distribution.                                                            |
 | **Database Pooling** | PgBouncer                      | Lightweight connection pooler for PostgreSQL; essential for high concurrency.                                                |
 | **Replication/Failover** | repmgr / Patroni            | repmgr simplifies PostgreSQL replication management and automated failover.                                                  |
-| **Containerization** | Docker (optional)              | For consistent development and deployment environments.                                                                      |
-| **CI/CD**            | GitHub Actions                 | Free for public/private repos; automates testing and deployment.                                                             |
 
 **Why Not Node.js?**  
 While Node.js is a viable option, Python was chosen for this school project due to the team's familiarity, extensive libraries for academic tasks (e.g., text extraction), and the desire to demonstrate backend development in a language commonly taught in computer engineering curricula.
@@ -309,5 +307,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Our instructors and peers for feedback and support.
 
 ---
+
+> For the record, most of the features mentioned not all of them will be implemented all at once, but they will be added incrementally as the project grows; The frontend too included 
 
 **Note**: This backend is designed as a school project and is not intended for production use without thorough security review and load testing.
