@@ -112,8 +112,8 @@ The platform follows a **modular monolith** architecture: the backend is a singl
 ---
 
 ### Demo images of cyber_drive, How far we've come 
-- Home Page (Dark Mode) : ![Home Page](https://github.com/cseth-rse/cyber_drive/raw/main/assets/cyber_home_1.png)
-- Home Page (Light Mode) : ![Home Page](https://github.com/cseth-rse/cyber_drive/raw/main/assets/cyber_home.png)
+- Home Page (Light Mode) : ![Home Page](https://github.com/cseth-rse/cyber_drive/raw/main/assets/cyber_home_l.png)
+- Home Page (Dark Mode) : ![Home Page](https://github.com/cseth-rse/cyber_drive/raw/main/assets/cyber_home.png)
 ## Technology Stack
 
 | Layer               | Technology                                                                 | Reason                                                                                                                       |
