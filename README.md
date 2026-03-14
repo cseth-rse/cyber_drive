@@ -359,6 +359,14 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 - Our instructors and peers for guidance and feedback.
 
 ---
-CONTRIBUTORS 
+### CONTRIBUTORS 
+- Joseph Anointed
+- Okeke Lawretta
+- Arinze David
+- Aikhere Jeffery
+- Muoneke Chidera
+- Ebosele Daniel
+- Adogah Emmanuel
+- Owhofasa Sunday 
 
 **Note**: Cyber Drive was developed as a school project to demonstrate full‑stack development skills. It is not intended for production use without a thorough security review and load testing.
