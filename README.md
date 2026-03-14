@@ -12,6 +12,7 @@ The platform was developed as a school project to demonstrate a full‑stack, pr
 The reason these features haven't been completed yet is that the programming work has been carried out by a very small team. Although we have used AI tools as assistants to help with development, each person still had to implement the code manually to ensure quality and avoid errors. This traditional coding process, combined with the limited Despite these challenges, we remain committed to building a stable and fully functional platform, and we will release the software once the core features are ready for a reliable user experience.
 number of contributors, has slowed the pace of development.
 
+
 ## What It Is
 
 Cyber Drive is a **full‑stack web application** consisting of:
@@ -369,4 +370,4 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 - Adogah Emmanuel
 - Owhofasa Sunday 
 
-**Note**: Cyber Drive was developed as a school project to demonstrate full‑stack development skills. It is not intended for production use without a thorough security review and load testing.
+**Note**: Cyber Drive was developed as a school project to demonstrate Software Engineering and development and Team management skills. It is not intended for production use without a thorough security review and load testing.
