@@ -8,6 +8,10 @@ The platform was developed as a school project to demonstrate a full‑stack, pr
 
 ---
 
+> The majority of the features mentioned in the software have not yet been implemented, though we plan to add them in the future. Features such as downloading, sharing, liking, commenting, and reading PDFs online are still under development. As a result, we have decided not to upload this version of the software at this time. 
+The reason these features haven't been completed yet is that the programming work has been carried out by a very small team. Although we have used AI tools as assistants to help with development, each person still had to implement the code manually to ensure quality and avoid errors. This traditional coding process, combined with the limited Despite these challenges, we remain committed to building a stable and fully functional platform, and we will release the software once the core features are ready for a reliable user experience.
+number of contributors, has slowed the pace of development.
+
 ## What It Is
 
 Cyber Drive is a **full‑stack web application** consisting of:
